@@ -139,6 +139,7 @@ app.post('/api/users/:_id/exercises', (req, res)=>{
   }
 });
 
+//Geting the logs //helped by the people who asked questions in the forms and ect.
 app.get('/api/users/:_id/logs', (req, res)=>{
 
   const fromd = req.query.from || new Date(0);
